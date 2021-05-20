@@ -1,0 +1,13 @@
+GET /notes/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+GET /notes*/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
